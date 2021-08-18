@@ -43,7 +43,7 @@
                                         <?php echo $admin->username; ?>
                                     </li>
                                     <li class="list-group-item">
-                                        <a href="logout" class="btn btn-md btn-block btn-danger text-white">Log Out</a>
+                                        <a href="logout.php" class="btn btn-md btn-block btn-danger text-white">Log Out</a>
                                     </li>
                                 </ul>
                             </div>

@@ -50,7 +50,7 @@ else{
                 echo "<div class='alert alert-success'>Deleted.</div>";
                 echo "<script>
                 setTimeout(() => {
-                    window.location.assign('admins')
+                    window.location.assign('admins.php')
                 }, 1000)
                 </script>";
             }

@@ -2,5 +2,5 @@
 ob_start();
 session_start();
 unset($_SESSION['admin']);
-header("Location: login");
+header("Location: login.php");
 ?>

@@ -29,7 +29,7 @@ $getData = $conn->query("SELECT * FROM payouts ORDER BY id DESC");
                                                     <td><?php echo $row->amount; ?></td>
                                                     <td><?php echo $row->wstatus; ?></td>
                                                     <td><?php echo $row->created_at."/".$row->updated_at; ?></td>
-                                                    <td><a href="withdrawal?id=<?php echo $row->id; ?>" class="btn btn-sm btn-info"><i class="fa fa-chevron-right"></i></a></td>
+                                                    <td><a href="withdrawal.php?id=<?php echo $row->id; ?>" class="btn btn-sm btn-info"><i class="fa fa-chevron-right"></i></a></td>
                                                 </tr>
                                                 <?php } ?>
                                             </tbody>

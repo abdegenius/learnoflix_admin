@@ -26,7 +26,7 @@ $getData = $conn->query("SELECT * FROM users WHERE category = 'ecoach' ORDER BY 
                                                     <td><?php echo $row->phone; ?></td>
                                                     <td><?php echo $row->firstname; ?></td>
                                                     <td><?php echo $row->lastname; ?></td>
-                                                    <td><a href="user?id=<?php echo $row->id; ?>&category=coach" class="btn btn-md btn-success">Manage</a></td>
+                                                    <td><a href="user.php?id=<?php echo $row->id; ?>&category=coach" class="btn btn-md btn-success">Manage</a></td>
                                                 </tr>
                                                 <?php } ?>
                                             </tbody>

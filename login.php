@@ -12,11 +12,11 @@ include "includes/connect.php";
 
 <head>
         <meta charset="UTF-8">
-        <title>Admin Dashboard | IMBAcademy</title>   
+        <title>Admin Dashboard | Learnoflix</title>   
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <meta name="author" content="IMBAcademy">
+        <meta name="author" content="Learnoflix">
 
         <!-- Base Css Files -->
         <link href="assets/libs/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
@@ -62,7 +62,7 @@ include "includes/connect.php";
 	<div class="container">
 		<div class="full-content-center">
 			<p class="text-center"><a href="#">
-			<h3 class="text-white">IMBAcademy</h3><br>
+			<h3 class="text-white">Learnoflix</h3><br>
 			</a></p>
 			<div class="login-wrap animated flipInX">
 				<div class="login-block">
@@ -88,7 +88,7 @@ include "includes/connect.php";
 							}
 						}
 					?>
-					<form role="form" action="login" method="post">
+					<form role="form" action="login.php" method="post">
 						<div class="form-group login-input">
 						<i class="fa fa-user overlay"></i>
 						<input type="text" name="username" class="form-control text-input" placeholder="Username">

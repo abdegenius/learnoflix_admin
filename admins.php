@@ -99,7 +99,7 @@ $getData = $conn->query("SELECT * FROM admins ORDER BY id DESC");
                                                     <td><?php echo $row->phone; ?></td>
                                                     <td><?php echo $row->firstname. " ". $row->lastname; ?></td>
                                                     <td><?php echo $row->email; ?></td>
-                                                    <td><a href="admin?id=<?php echo $row->id; ?>" class="btn btn-md btn-success">Manage</a></td>
+                                                    <td><a href="admin.php?id=<?php echo $row->id; ?>" class="btn btn-md btn-success">Manage</a></td>
                                                 </tr>
                                                 <?php } ?>
                                             </tbody>

@@ -69,7 +69,7 @@ if(empty($admin)){
 				<p class="text-center">Are you sure want to logout from this awesome system?</p>
 				<p class="text-center">
 				<button class="btn btn-danger md-close">Nope!</button>
-				<a href="logout" class="btn btn-success md-close">Yeah, I'm sure</a>
+				<a href="logout.php" class="btn btn-success md-close">Yeah, I'm sure</a>
 				</p>
 			</div>
 		</div>
@@ -100,7 +100,7 @@ if(empty($admin)){
                             <img src="images/admin.png"></span> <?php echo $admin->username; ?>
                             <i class="fa fa-caret-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="profile">My Profile</a></li>
+                            <li><a href="profile.php">My Profile</a></li>
                             <li class="divider"></li>
                             <li><a class="md-trigger" data-modal="logout-modal"><i class="icon-logout-1"></i> Logout</a></li>
                         </ul>
@@ -126,7 +126,7 @@ if(empty($admin)){
                 <!--- Profile -->
                 <div class="profile-info">
                     <div class="col-xs-4">
-                      <a href="profile" class="rounded-image profile-image"><img src="images/admin.png"></a>
+                      <a href="profile.php" class="rounded-image profile-image"><img src="images/admin.png"></a>
                     </div>
                     <div class="col-xs-8">
                         <br>
@@ -141,34 +141,34 @@ if(empty($admin)){
                 <div id="sidebar-menu">
                     <ul>
                         <li>
-                            <a href='index'><i class='fa fa-dashboard'></i><span>Dashboard</span></a>
+                            <a href='index.php.php'><i class='fa fa-dashboard'></i><span>Dashboard</span></a>
                         </li>
                         <li>
-                            <a href='profile'><i class='fa fa-user'></i><span>Profile</span></a>
+                            <a href='profile.php'><i class='fa fa-user'></i><span>Profile</span></a>
                         </li>
                         <li>
-                            <a href='admins'><i class='fa fa-gavel'></i><span>Admins</span></a>
+                            <a href='admins.php'><i class='fa fa-gavel'></i><span>Admins</span></a>
                         </li>
                         <li>
-                            <a href='affiliates'><i class='fa fa-link'></i><span>Affiliates</span></a>
+                            <a href='affiliates.php'><i class='fa fa-link'></i><span>Affiliates</span></a>
                         </li>
                         <li>
-                            <a href='coaches'><i class='fa fa-graduation-cap'></i><span>Coaches</span></a>
+                            <a href='coaches.php'><i class='fa fa-graduation-cap'></i><span>Coaches</span></a>
                         </li>
                         <li>
-                            <a href='students'><i class='fa fa-users'></i><span>Students</span></a>
+                            <a href='students.php'><i class='fa fa-users'></i><span>Students</span></a>
                         </li>
                         <li>
-                            <a href='courses'><i class='fa fa-book'></i><span>Courses</span></a>
+                            <a href='courses.php'><i class='fa fa-book'></i><span>Courses</span></a>
                         </li>
                         <li>
-                            <a href='epins'><i class='fa fa-list'></i><span>Epins</span></a>
+                            <a href='epins.php'><i class='fa fa-list'></i><span>Epins</span></a>
                         </li>
                         <li>
-                            <a href='withdrawals'><i class='fa fa-upload'></i><span>Withdrawals</span></a>
+                            <a href='withdrawals.php'><i class='fa fa-upload'></i><span>Withdrawals</span></a>
                         </li>
                         <li>
-                            <a href='logout'><i class='fa fa-arrow-right'></i><span>Logout</span></a>
+                            <a href='logout.php'><i class='fa fa-arrow-right'></i><span>Logout</span></a>
                         </li>
                     </ul>                    
                     <div class="clearfix"></div>

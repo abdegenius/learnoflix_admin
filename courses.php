@@ -42,7 +42,7 @@ $getData = $conn->query("SELECT * FROM courses ORDER BY id DESC");
                                     <td><?php echo $row->price; ?></td>
                                     <td><?php echo $row->discount; ?></td>
                                     <td><?php echo $row->created_at; ?></td>
-                                    <td><a href="course?id=<?php echo $row->id; ?>" class="btn btn-sm btn-info"><i class="fa fa-chevron-right"></i></a></td>
+                                    <td><a href="course.php?id=<?php echo $row->id; ?>" class="btn btn-sm btn-info"><i class="fa fa-chevron-right"></i></a></td>
                                 </tr>
                             <?php } ?>
                         </tbody>
